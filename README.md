@@ -48,53 +48,54 @@ Các kỹ sư loại 1 tìm cách học chuyên sâu về KHMT, cho dù thông q
 
 Hiện tại, số lượng người vào ngành IT đang tăng lên nhanh chóng, trong khi số lượng người tốt nghiệp KHMT thì  tương đối ổn định. Tình trạng dư cung của cá kỹ sư loại 2 này đang bắt đầu làm giảm cơ hội việc làm của chính họ, và đẩy họ ra khỏi ngành IT. Cho dù bạn đang phấn đấu để trở thành kỹ sư loại 1 hay chỉ đơn giản là tìm kiếm công việc an toàn hơn, học KHMT là con đường đúng đắn duy nhất.
 
-[! [] (./Teach%20Yourself%20Computer%20Science_files/bilotta-tweet.png)] (https://twitter.com/jenna/status/838161631662092289)
+[![@todo](./Teach%20Yourself%20Computer%20Science_files/bilotta-tweet.png)](https://twitter.com/jenna/status/838161631662092289)
 
-Subject guides
+Hướng dẫn chi tiết cho các chủ đề
 --------------
 
-### Programming
+### Lập trình
 
-Most undergraduate CS programs start with an “introduction” to computer programming. The best versions of these courses cater not just to novices, but also to those who missed beneficial concepts and programming models while first learning to code.
+Hầu hết các chương trình đại học cho ngành KHMT đều bắt đầu với phần “giới thiệu” về lập trình máy tính. Các khóa học tốt nhất cho chủ đề này không chỉ giúp cho người mới học, mà còn rất tốt chho những người đã bỏ lỡ các khái niệm và mô hình lập trình khi họ mới học viết mã.
 
-Our standard recommendation for this content is the classic *Structure and Interpretation of Computer Programs*, which is available online for free both as [a book](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html), and as a set of [MIT video lectures](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/). While those lectures are great, our video suggestion is actually [Brian Harvey’s SICP lectures](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter) (for the 61A course at Berkeley) instead. These are more refined and better targeted at new students than are the MIT lectures.
+Gợi ý chung nhất của chúng tôi cho nội dung này là cuốn sách kinh điển *Cấu trúc và diễn giải các chương trình máy tính* (SICP - viết tắt tên tiếng Anh). Nó được cung cấp trực tuyến miễn phí dưới dạng [sách điện tử](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html), và dưới dạng một tập hợp [các bài giảng video của MIT](http://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-001-structure-and-interpretation-of-computer-programs-spring-2005/video-lectures/). Mặc dù những bài giảng đó rất hay, nhưng đề xuất video của chúng tôi là [bài giảng SICP của Brian Harvey](https://archive.org/details/ucberkeley-webcast-PL3E89002AA9B9879E?sort=titleSorter) (cho khóa học 61A tại Berkeley). Các bài giảng này được trau chuốt hơn và hướng đến đối tượng là sinh viên mới tốt hơn so với các bài giảng của MIT.
 
-We recommend working through at least the first three chapters of SICP and doing the exercises. For additional practice, work through a set of small programming problems like those on [exercism](http://exercism.io/).
+Chúng tôi khuyên bạn nên học qua ít nhất ba chương đầu tiên của SICP và làm các bài tập. Để thực hành thêm, hãy thử giải quyết một loạt các bài tập về lập trình nhỏ trên [exercism.io](http://exercism.io/).
 
-Since this guide was first published in 2016, one of the most commonly asked questions has been whether we’d now recommend recordings of a more recent iteration of 61A taught by John DeNero, and/or the corresponding book *[Composing Programs](https://composingprograms.com/)*, which is “in the tradition of SICP” but uses Python. We think the DeNero resources are also great, and some students may end up preferring them, but we still suggest SICP, Scheme, and Brian Harvey’s lectures as the first set of resources to try.
+Kể từ khi hướng dẫn này được đăng lần đầu tiên vào năm 2016, một trong những câu hỏi thường gặp nhất là liệu bây giờ chúng tôi có nên đề xuất các video mới hơn của khoá học 61A do John DeNero dạy, và/hoặc cuốn sách tương tự *[Soạn thảo chương trình](https://composingprograms.com/)*, vẫn là cuốn sách SICP nhưng sử dụng Python. Chúng tôi nghĩ rằng các tài liệu của DeNero rất tuyệt và một số sinh viên có thể thích chúng hơn, nhưng chúng tôi vẫn đề xuất cuố sách gốc của SICP, Scheme, và các bài giảng của Brian Harvey như là nguồn tài nguyên đầu tiên nên thử.
 
-Why? Because SICP is unique in its ability—at least potentially—to alter your fundamental beliefs about computers and programming. Not everybody will experience this. Some will hate the book, others won't get past the first few pages. But the potential reward makes it worth trying.
+Tại sao? Bởi vì SICP đặc biệt, ít nhất là nhiều khả năng, trong việc thay đổi suy nghĩ cơ bản của bạn về máy tính và lập trình. Không phải ai cũng sẽ cảm nhận được điều này. Một số sẽ ghét cuốn sách, những người khác sẽ không vượt qua được vài trang đầu tiên. Nhưng giá trị tiềm năng mà nó mang lại rất đáng để thử.
 
-If you don't enjoy SICP, try *Composing Programs*. If that still doesn't suit, try *[How to Design Programs](http://www.htdp.org/)*. If none of these seem to be rewarding your effort, perhaps that's a sign that you should focus on other topics for some time, and revisit the discipline of programming in another year or two.
+Nếu bạn không cảm thấy thích SICP, hãy thử *[Soạn thảo chương trình](https://composingprograms.com/)*. Nếu vẫn không phù hợp, hãy thử *[Cách thiết kế các chương trình](http://www.htdp.org/)*. Nếu không có tài liệu nào trong số này làm bạn cảm thấy bạn có thể dành công sức cho nó, có lẽ đó là một dấu hiệu cho thấy bạn nên tập trung vào các chủ đề khác trong một thời gian và xem lại chủ đề lập trình này trong một hoặc hai năm nữa.
 
-Finally, a point of clarification: this guide is NOT designed for those who are entirely new to programming. We assume that you are a competent programmer without a background in computer science, looking to fill in some knowledge gaps. The fact that we've included a section on "programming" is simply a reminder that there may be more to learn. For those who've never coded before, but who'd like to, you might prefer a guide like [this one](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started).
+Cuối cùng, một điểm cần làm rõ: hướng dẫn này KHÔNG được thiết kế cho những người hoàn toàn mới học lập trình. Chúng tôi giả định rằng bạn là một lập trình viên có năng lực mà không có nền tảng về KHMT, đang tìm cách lấp đầy một số lỗ hổng kiến ​​thức. Thực tế là chúng tôi đặt ra một chủ đề về "lập trình" chỉ đơn giản là một lời nhắc nhở rằng bạn có thể cần tìm hiểu nhiều hơn nữa. Đối với những người chưa bao giờ viết mã trước đây, nhưng nếu muốn, bạn có thể thích một hướng dẫn như [cái này](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started).
 
-[![Structure and Interpretation of Computer Programs](./Teach%20Yourself%20Computer%20Science_files/sicp.jpg)](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
 
-### Computer Architecture
+[![@todo Structure and Interpretation of Computer Programs](./Teach%20Yourself%20Computer%20Science_files/sicp.jpg)](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
 
-Computer Architecture—sometimes called “computer systems” or “computer organization”—is an important first look at computing below the surface of software. In our experience, it’s the most neglected area among self-taught software engineers.
+### Kiến trúc máy tính
 
-Our favorite introductory book is *[Computer Systems: A Programmer's Perspective](http://csapp.cs.cmu.edu/3e/home.html)*, and a typical introductory computer architecture course using the book [would cover](http://csapp.cs.cmu.edu/3e/courses.html) most of chapters 1-6.
+Kiến trúc Máy tính — đôi khi được gọi là “hệ thống máy tính” hoặc “tổ chức của máy tính” — là một góc nhìn quan trọng đầu tiên về phần tính toán bên dưới bề mặt của phần mềm. Theo kinh nghiệm của chúng tôi, đó là lĩnh vực bị bỏ qua nhất trong các kỹ sư phần mềm tự học.
 
-We love CS:APP for the practical, programmer-oriented approach. While there's much more to computer architecture than what's covered in the book, it serves as a great starting point for those who'd like to understand computer systems primarily in order to write faster, more efficient and more reliable *software*.
+Cuốn sách yêu thích để giới thiệu của chúng tôi là *[Hệ thống máy tính: Góc nhìn của một lập trình viên (CS:APP - tên viết tắt tiếng Anh)](http://csapp.cs.cmu.edu/3e/home.html)* và khóa học điển hình sử dụng cuốn sách này [sẽ bao gồm](http://csapp.cs.cmu.edu/3e/courses.html) hầu hết các chương 1-6.
 
-For those who'd prefer both a gentler introduction to the topic and a balance of hardware and software concerns, we suggest *The Elements of Computing Systems*, also known as “Nand2Tetris”. This is an ambitious book attempting to give you a cohesive understanding of how everything in a computer works. Each chapter involves building a small piece of the overall system, from writing elementary logic gates in HDL, through a CPU and assembler, all the way to an application the size of a Tetris game.
+Chúng tôi thích cuốn sách CS:APP vì cách tiếp cận thực tế, hướng đến lập trình viên. Mặc dù vẫn có nhiều thứ về kiến ​​trúc máy tính trong hơn những gì được đề cập trong cuốn sách, nhưng nó là một điểm khởi đầu tuyệt vời cho những ai muốn hiểu về hệ thống máy tính nhằm để viết ra các *phần mềm* nhanh hơn, hiệu quả hơn, và đáng tin cậy hơn.
 
-We recommend reading through the first six chapters of the book and completing the associated projects. This will develop your understanding of the relationship between the architecture of the machine and the software that runs on it.
+Đối với những người muốn có phần giới thiệu nhẹ nhàng hơn về chủ đề này và sự cân bằng giữa phần cứng và phần mềm, chúng tôi đề xuất *Các yếu tố của hệ thống máy tính*, còn được gọi là “Nand2Tetris”. Đây là một cuốn sách đầy tham vọng nhằm cung cấp cho bạn sự hiểu biết đầy đủ về cách mọi thứ trong máy tính hoạt động. Mỗi chương liên quan đến việc xây dựng một phần nhỏ của hệ thống tổng thể, từ việc viết các cổng logic cơ bản trong HDL, thông qua CPU và assembler, cho đến một ứng dụng có kích thước bằng một trò chơi Tetris.
 
-The first half of the book (and all of its projects), are available for free from [the Nand2Tetris website](http://www.nand2tetris.org/). It’s also available as [a Coursera course with accompanying videos](https://www.coursera.org/learn/build-a-computer).
+Chúng tôi khuyên đọc sáu chương đầu tiên của cuốn sách và hoàn thành các dự án liên quan. Điều này sẽ giúp bạn hiểu được mối quan hệ giữa kiến ​​trúc của máy tính và phần mềm chạy trên đó.
 
-In seeking simplicity and cohesiveness, Nand2Tetris trades off depth. In particular, two very important concepts in modern computer architectures are pipelining and memory hierarchy, but both are mostly absent from the text.
+Nửa đầu của cuốn sách (và tất cả các dự án của cuốn sách), được cung cấp miễn phí từ [trang web Nand2Tetris](http://www.nand2tetris.org/). Nó cũng có sẵn dưới dạng [một khóa học Coursera với video đi kèm](https://www.coursera.org/learn/build-a-computer).
 
-Once you feel comfortable with the content of Nand2Tetris, we suggest either returning to CS:APP, or considering Patterson and Hennessy’s *[Computer Organization and Design](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)*, an excellent and now classic text. Not every section in the book is essential; we suggest following Berkeley’s [CS61C course](http://inst.eecs.berkeley.edu/~cs61c/sp15/) “Great Ideas in Computer Architecture” for specific readings. The lecture notes and labs are available online, and past lectures are [on the Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_).
+Khi tìm kiếm sự đơn giản và gắn kết, Nand2Tetris đánh đổi với độ sâu của kiến thức. Đặc biệt, hai khái niệm rất quan trọng trong kiến ​​trúc máy tính hiện đại là pipelining và phân cấp bộ nhớ, nhưng cả hai đều hầu như không có trong sách.
 
-[![Computer Systems: A Programmer's Perspective](./Teach%20Yourself%20Computer%20Science_files/csapp.jpg)](http://csapp.cs.cmu.edu/3e/home.html)
+Khi bạn cảm thấy thoải mái với nội dung của Nand2Tetris, chúng tôi khuyên bạn nên quay lại CS: APP hoặc xem xét cuốn sách kinh điển và xuất sắc *[Tổ chức máy tính và thiết kế](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)* của Patterson và Hennessy. Không phải mọi phần trong sách đều cần thiết; chúng tôi khuyên bạn nên theo dõi[khóa học CS61C của Berkeley](http://inst.eecs.berkeley.edu/~cs61c/sp15/) “Những ý tưởng tuyệt vời trong kiến ​​trúc máy tính” để có thể đọc cụ thể. Các ghi chú bài giảng và phòng thử nghiệm có sẵn trực tuyến và các bài giảng trước đây có sẵn trên [Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_). 
 
-> Hardware is the platform
+[![@todo Hệ thống máy tính: Góc nhìn của một lập trình viên](./Teach%20Yourself%20Computer%20Science_files/csapp.jpg)](http://csapp.cs.cmu.edu/3e/home.html)
 
-– Mike Acton, Engine Director at Insomniac Games
-([watch his CppCon talk](https://www.youtube.com/watch?v=rX0ItVEVjHc))
+> Phần cứng là nền tảng
+
+- Mike Acton, Giám đốc kỹ thuật tại Insomniac Games
+([xem cuộc nói chuyện CppCon của ông ấy](https://www.youtube.com/watch?v=rX0ItVEVjHc))
 
 ### Algorithms and Data Structures
 
