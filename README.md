@@ -97,51 +97,51 @@ Khi bạn cảm thấy thoải mái với nội dung của Nand2Tetris, chúng t
 - Mike Acton, Giám đốc kỹ thuật tại Insomniac Games
 ([xem cuộc nói chuyện CppCon của ông ấy](https://www.youtube.com/watch?v=rX0ItVEVjHc))
 
-### Algorithms and Data Structures
+### Thuật toán và cấu trúc dữ liệu
 
-We agree with decades of common wisdom that familiarity with common algorithms and data structures is one of the most empowering aspects of a computer science education. This is also a great place to train one’s general problem-solving abilities, which will pay off in every other area of study.
+Chúng tôi đồng ý với sự đồng thuận chung trong nhiều thập kỷ rằng sự quen thuộc với các thuật toán và cấu trúc dữ liệu phổ biến là một trong những đặc điểm có nhiều ý nghĩa nhất của chương trình giáo dục khoa học máy tính. Đây cũng là một nơi tuyệt vời để đào tạo khả năng giải quyết vấn đề chung của một người, khả năng này sẽ mang lại hiệu quả trong mọi lĩnh vực nghiên cứu khác.
 
-There are hundreds of books available, but our favorite is *[The Algorithm Design Manual](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)* by Steven Skiena. He clearly loves algorithmic problem solving and typically succeeds in fostering similar enthusiasm among his students and readers. In our opinion, the two more commonly suggested texts (CLRS and Sedgewick) tend to be a little too proof-heavy for those learning the material primarily to help with practical problem solving.
+Có hàng trăm cuốn sách ngoài kia, nhưng cuốn sách yêu thích của chúng tôi là *[Hướng dẫn Thiết kế Thuật toán](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/)* của Steven Skiena. Tác giả rõ ràng yêu thích việc giải quyết vấn đề bằng thuật toán và thường thành công trong việc nuôi dưỡng sự nhiệt tình tương tự giữa các sinh viên và độc giả của mình. Theo ý kiến ​​của chúng tôi, hai cuốn sách được nhiều gợi ý hơn (CLRS và Sedgewick) có xu hướng hơi quá nặng theo hướng chứng minh cho những người chủ yếu học lý thuyết đẻ giúp họ giải quyết vấn đề thực tế.
 
-For those who prefer video lectures, [Skiena generously provides his online](https://www.youtube.com/watch?v=A2bFN3MyNDA&list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp). We also really like Tim Roughgarden’s course, available [on Coursera](https://www.coursera.org/specializations/algorithms) and [elsewhere](http://timroughgarden.org/videos.html). Whether you prefer Skiena’s or Roughgarden’s lecture style will be a matter of personal preference. In fact, there are dozens of good alternatives, so if you happen to find another that you like, we encourage you to stick with it!
+Đối với những bạn thích các bài giảng video, [Skiena hào phóng cung cấp phiên bản trực tuyến](https://www.youtube.com/watch?v=A2bFN3MyNDA&list=PLOtl7M3yp-DX32N0fVIyvn7ipWKNGmwpp). Chúng tôi cũng thực sự thích khóa học của Tim Roughgarden ở[trên Coursera](https://www.coursera.org/specializations/algorithm) và [nơi khác](http://timroughgarden.org/videos.html). Cho dù bạn thích phong cách giảng bài của Skiena hay Roughgarden đều ổn, đấy chỉ là sở thích cá nhân. Trên thực tế, có hàng tá lựa chọn thay thế cũng rất tốt, vì vậy nếu bạn tình cờ tìm thấy nguồn tài liệu khác mà bạn thích, chúng tôi khuyến khích bạn tiếp tục với nguồn tài liệu đó!
 
-For practice, our preferred approach is for students to solve problems on [Leetcode](https://leetcode.com/). These tend to be interesting problems with decent accompanying solutions and discussions. They also help you test progress against questions that are commonly used in technical interviews at the more competitive software companies. We suggest solving around 100 random leetcode problems as part of your studies.
+Để thực hành, chúng tôi gợi ý giải các bài toán trên [Leetcode](https://leetcode.com/). Chúng là những vấn đề thú vị với các giải pháp và thảo luận đi kèm. Họ cũng giúp bạn kiểm tra sự tiến bộ so với các câu hỏi thường được sử dụng trong các cuộc phỏng vấn kỹ thuật tại các công ty phần mềm cạnh nổi tiếng. Chúng tôi khuyên bạn nên giải quyết khoảng 100 bài toán leetcode ngẫu nhiên như một phần của việc nghiên cứu và học tập. 
 
-Finally, we strongly recommend *[How to Solve It](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)* as an excellent and unique guide to general problem solving; it’s as applicable to computer science as it is to mathematics.
+Cuối cùng, chúng tôi đề xuất cuốn sách *[Cách giải quyết](https://smile.amazon.com/How-Solve-Mathelogical-Princeton-Science/dp/069116407X/)* như một hướng dẫn tuyệt vời và độc đáot liên quan tới giải quyết vấn đề nói chung; nó hữu dụng cho khoa học máy tính cũng như toán học.
 
-[![The Algorithm Design Manual](./Teach%20Yourself%20Computer%20Science_files/skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) [![How to Solve It](./Teach%20Yourself%20Computer%20Science_files/polya.jpg)](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)
+[![@todo Hướng dẫn Thiết kế Thuật toán](./Teach%20Yourself%20Computer%20Science_files/skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) [![@todo Cách giải quyết](./Teach%20Yourself%20Computer%20Science_files/polya.jpg)](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)
 
-> I have only one method that I recommend extensively—it’s called think before you write.
+> Tôi chỉ có một phương pháp mà tôi đề xuất rộng rãi. Đó là suy nghĩ trước khi bạn viết.
 
-— Richard Hamming
+- Richard Hamming
 
-### Mathematics for Computer Science
+### Toán học cho Khoa học Máy tính
 
-In some ways, computer science is an overgrown branch of applied mathematics. While many software engineers try—and to varying degrees succeed—at ignoring this, we encourage you to embrace it with direct study. Doing so successfully will give you an enormous competitive advantage over those who don’t.
+Theo một cách nào đó, khoa học máy tính là một nhánh của toán học ứng dụng đã phát triển quá nhanh. Mặc dù nhiều kỹ sư phần mềm cố gắng bỏ qua chủ đề này ở các mức độ khác nhau, chúng tôi khuyến khích bạn nắm bắt nó bằng cách nghiên cứu trực tiếp. Nếu học được thành công sẽ mang lại cho bạn một lợi thế cạnh tranh to lớn so với những người không học.
 
-The most relevant area of math for CS is broadly called “discrete mathematics”, where “discrete” is the opposite of “continuous” and is loosely a collection of interesting applied math topics outside of calculus. Given the vague definition, it’s not meaningful to try to cover the entire breadth of “discrete mathematics”. A more realistic goal is to build a working understanding of logic, combinatorics and probability, set theory, graph theory, and a little of the number theory informing cryptography. Linear algebra is an additional worthwhile area of study, given its importance in computer graphics and machine learning.
+Lĩnh vực toán học có liên quan nhất đối với KHMT được gọi rộng rãi là “toán học rời rạc”, trong đó “rời rạc” đối lập với “liên tục” và là một tập hợp các chủ đề toán học ứng dụng thú vị ngoài giải tích. Với định nghĩa mơ hồ như vậy, sẽ không có nhiều ý nghĩa nếu cố gắng học mọi thứ về “toán học rời rạc. Một mục tiêu thực tế hơn là xây dựng sự hiểu biết về logic, tổ hợp và xác suất, lý thuyết tập hợp, lý thuyết đồ thị, và một chút lý thuyết số thông báo về mã hoá. Đại số tuyến tính là một lĩnh vực đáng nghiên cứu bổ sung, do tầm quan trọng của nó trong đồ họa máy tính và học máy.
 
-Our suggested starting point for discrete mathematics is the set of [lecture notes by László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps). Professor Lovász did a good job of making the content approachable and intuitive, so this serves as a better starting point than more formal texts.
+Điểm bắt đầu mà chúng tôi đề xuất cho toán học rời rạc là tập hợp [các ghi chú bài giảng của László Lovász](http://www.cs.elte.hu/~lovasz/dmbook.ps). Giáo sư Lovász đã làm rất tốt việc làm cho nội dung dễ tiếp cận và trực quan, vì vậy đây là điểm khởi đầu tốt hơn so với tài liệu chính thức.
 
-For a more advanced treatment, we suggest *[Mathematics for Computer Science](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)*, the book-length lecture notes for the MIT course of the same name. That course’s video lectures are also [freely available](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), and are our recommended video lectures for discrete math.
+Để có hiểu sâu hơn, chúng tôi đề xuất *[Toán học cho Khoa học Máy tính](https://courses.csail.mit.edu/6.042/spring17/mcs.pdf)*, ghi chú bài giảng dài như sách cho khóa học ở MIT có cùng tên gọi. Video bài giảng của khóa học đó cũng [miễn phí](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-fall-2010/video-lectures/), và là video bài giảng chúng tôi khuyên dùng cho môn toán rời rạc.
 
-For linear algebra, we suggest starting with the [Essence of linear algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) video series, followed by Gilbert Strang’s [book](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) and [video lectures](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
+Đối với đại số tuyến tính, chúng tôi khuyên bạn nên bắt đầu với loạt video [Bản chất của đại số tuyến tính](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab), theo sau là [sách của Gilbert Strang](https://www.amazon.com/Introduction-Linear-Algebra-Gilbert-Strang/dp/0980232775/) và [video bài giảng](https://ocw.mit.edu/courses/mathematics/18-06-linear-algebra-spring-2010/video-lectures/).
 
-> If people do not believe that mathematics is simple, it is only because they do not realize how complicated life is.
+> Nếu mọi người không tin rằng toán học là đơn giản, đó chỉ là vì họ không nhận ra cuộc sống phức tạp như thế nào.
 
-— John von Neumann
+- John von Neumann
 
-### Operating Systems
+### Hệ điều hành
 
-*[Operating System Concepts](https://www.amazon.com/dp/1118063333/)* (the “Dinosaur book”) and *[Modern Operating Systems](https://www.amazon.com/dp/013359162X/)* are the “classic” books on operating systems. Both have attracted criticism for their lack of clarity and general student unfriendliness.
+*[Khái niệm hệ điều hành](https://www.amazon.com/dp/1118063333/)* và *[Hệ điều hành hiện đại](https://www.amazon.com/dp/013359162X/)* là những cuốn sách “kinh điển” về hệ điều hành. Cả hai đều bị chỉ trích vì sự thiếu rõ ràng và không thân thiện với học sinh.
 
-*Operating Systems: Three Easy Pieces* is a good alternative that’s [freely available online](http://pages.cs.wisc.edu/~remzi/OSTEP/). We particularly like the structure and readability of the book, and feel that the exercises are worthwhile.
+*Hệ điều hành: Ba mảnh dễ dàng* là một giải pháp thay thế tốt, được xuất bản [trực tuyến và miễn phí] (http://pages.cs.wisc.edu/~remzi/OSTEP/). Chúng tôi đặc biệt thích cấu trúc và tính dễ đọc của cuốn sách và cảm thấy rằng các bài tập rất đáng giá.
 
-After OSTEP, we encourage you to explore the design decisions of specific operating systems, through “{OS name} Internals” style books such as *[Lion's commentary on Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)*, *[The Design and Implementation of the FreeBSD Operating System](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)*, and *[Mac OS X Internals](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)*. For Linux, we suggest Robert Love's fantastic [Linux Kernel Development](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468).
+Sau *Hệ điều hành: Ba mảnh dễ dàng*, chúng tôi khuyến khích bạn khám phá các quyết định thiết kế của các hệ điều hành cụ thể, thông qua các cuốn sách kiểu “Phía trong của {Tên hệ điều hành}" chẳng hạn như *[Bài bình luận của Lion về Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)*, *[Thiết kế và triển khai hệ điều hành FreeBSD](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)* và *[Phía trong của Mac OS X](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)*. Đối với Linux, chúng tôi đề xuất cuốn sách tuyệt vời [Phát triển nhân Linux](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468) của Robert Love.
 
-A great way to consolidate your understanding of operating systems is to read the code of a small kernel and add features. One choice is [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), a port of Unix V6 to ANSI C and x86, maintained for a course at MIT. OSTEP has an appendix of potential [xv6 labs](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf) full of great ideas for potential projects.
+Một cách rất tốt để củng cố sự hiểu biết của bạn về hệ điều hành là đọc mã của một hạt nhân nhỏ và thêm các tính năng. Một lựa chọn là [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), một phiên bản từ Unix V6 sang ANSI C và x86, nó được duy trì cho một khóa học tại MIT. *Hệ điều hành: Ba mảnh dễ dàng* có một phụ lục về tiềm năng của [xv6 labs](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf), trong đó nêu ra những ý tưởng tuyệt vời cho các dự án tiềm năng.
 
-[![Operating Systems: Three Easy Pieces](./Teach%20Yourself%20Computer%20Science_files/ostep.jpeg)](http://pages.cs.wisc.edu/~remzi/OSTEP/)
+[![@todo Hệ điều hành: Ba mảnh dễ dàng](./Teach%20Yourself%20Computer%20Science_files/ostep.jpeg)](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 
 ### Computer Networking
 
