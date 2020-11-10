@@ -258,8 +258,6 @@ We're very confident that you could teach yourself everything above, given enoug
 
 For updates to this guide and general computer science news and resources, you may also like to join Bradfield's mailing list:
 
-Thanks for subscribing!
-
 [hello@bradfieldcs.com](mailto:hello@bradfieldcs.com)
  San Francisco, California
  © 2016-2020 Bradfield School of Computer Science

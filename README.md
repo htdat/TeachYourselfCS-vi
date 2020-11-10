@@ -27,7 +27,7 @@ Học tất cả chín chủ đề dưới đây, tốt nhất là theo thứ t�
 |**[Mạng máy tính](https://teachyourselfcs.com/#networking)**|Internet là một vấn đề lớn: bạn cần hiểu cách nó hoạt động để khai thác hết tiềm năng của nó.|*Mạng máy tính: một cách tiếp cận từ tầng trên xuống dưới*|Stanford CS 144|
 |**[Cơ sở dữ liệu](https://teachyourselfcs.com/#databases)**|Dữ liệu là trọng tâm của hầu hết các chương trình quan trọng, nhưng ít người hiểu cách hệ thống cơ sở dữ liệu thực sự hoạt động.|*Đọc trong Hệ thống Cơ sở Dữ liệu*|Joe Hellerstein's Berkeley CS 186|
 |**[Ngôn ngữ và Trình biên dịch](https://teachyourselfcs.com/#languages)**|Nếu bạn hiểu cách ngôn ngữ và trình biên dịch thực sự hoạt động, bạn sẽ viết mã tốt hơn và học ngôn ngữ mới dễ dàng hơn.|*Tạo thông dịch viên*|Khóa học của Alex Aiken trên edX|
-|**[Hệ thống phân tán](https://teachyourselfcs.com/#distributed-systems)**|Ngày nay, *hầu hết* hệ thống là phân tán.|*Thiết kế các ứng dụng tập trung về dữ liệu* của Martin Kleppmann|MIT 6.824|
+|**[Hệ thống phân tán](https://teachyourselfcs.com/#distributed-systems)**|Ngày nay, *hầu hết* hệ thống là phân tán.|*Thiết kế các ứng dụng chuyên sâu về dữ liệu* của Martin Kleppmann|MIT 6.824|
 
 Vẫn còn quá nhiều?
 ---------------
@@ -143,123 +143,121 @@ Một cách rất tốt để củng cố sự hiểu biết của bạn về h�
 
 [![@todo Hệ điều hành: Ba mảnh dễ dàng](./Teach%20Yourself%20Computer%20Science_files/ostep.jpeg)](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 
-### Computer Networking
+### Mạng máy tính
 
-Given that so much of software engineering is on web servers and clients, one of the most immediately valuable areas of computer science is computer networking. Our self-taught students who methodically study networking find that they finally understand terms, concepts and protocols they’d been surrounded by for years.
+Thực tế hiện nay có rất nhiều kỹ thuật phần mềm nằm trên máy chủ web và máy khách, nên một trong những lĩnh vực có giá trị tức thì của khoa học máy tính là mạng máy tính. Các sinh viên tự học của chúng tôi, những người nghiên cứu mạng máy tính một cách có phương pháp thấy rằng cuối cùng họ cũng hiểu các thuật ngữ, khái niệm và giao thức mà họ đã nhìn thấy trong trong nhiều năm.
 
-Our favorite book on the topic is *[Computer Networking: A Top-Down Approach](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)*. The small projects and exercises in the book are well worth doing, and we particularly like the “Wireshark labs”, which they have [generously provided online](http://www-net.cs.umass.edu/wireshark-labs/).
+Cuốn sách yêu thích của chúng tôi về chủ đề này là *[Mạng máy tính: một cách tiếp cận từ tầng trên xuống dưới](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)*. Các dự án và bài tập nhỏ trong cuốn sách rất đáng để làm, và chúng tôi đặc biệt thích “Phòng thí nghiệm Wireshark” mà họ [cung cấp trực tuyến miễn phí](http://www-net.cs.umass.edu/wireshark-labs/).
 
-For those who prefer video lectures, we suggest Stanford’s [*Introduction to Computer Networking course*](https://www.youtube.com/playlist?list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z) previously available via Stanford's MOOC platform Lagunita, but sadly now only available as unofficial playlists on Youtube.
+Đối với những người thích các bài giảng video, chúng tôi đề xuất [*Khóa học Giới thiệu về Mạng Máy tính*](https://www.youtube.com/playlist?list=PLvFG2xYBrYAQCyz4Wx3NPoYJOFjvU7g2Z) đã được cung cấp trên nền tảng MOOC Lagunita của trường Standford nhưng đáng buồn là bây giờ chỉ có sẵn dưới dạng không chính thức trên Youtube.
 
-> You can’t gaze in the crystal ball and see the future. What the Internet is going to be in the future is what society makes it.
+> Bạn không thể nhìn vào quả cầu pha lê và nhìn thấy tương lai. Những gì Internet sẽ trở thành trong tương lai là những gì xã hội tạo ra nó.
 
-— Bob Kahn
+- Bob Kahn
 
-[![Computer Networking: A Top-Down Approach](./Teach%20Yourself%20Computer%20Science_files/top-down.jpg)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
+[![@todo Mạng máy tính: một cách tiếp cận từ tầng trên xuống dưới](./Teach%20Yourself%20Computer%20Science_files/top-down.jpg)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
 
-### Databases
+### Cơ sở dữ liệu
 
-It takes more work to self-learn about database systems than it does with most other topics. It’s a relatively new (i.e. post 1970s) field of study with strong commercial incentives for ideas to stay behind closed doors. Additionally, many potentially excellent textbook authors have preferred to join or start companies instead.
+Tự học về hệ thống cơ sở dữ liệu sẽ mất nhiều công sức hơn so với hầu hết các chủ đề khác. Đây là một lĩnh vực nghiên cứu tương đối mới (tức là sau những năm 1970) với những giá trị thương mại lớn cho các ý tưởng tưởng được giữ lại sau các cánh cửa đóng kín. Ngoài ra, nhiều tác giả tiềm năng cho các giáo trình xuất sắc tiềm năng đã muốn tham gia hoặc thành lập các công ty hơn là viết sách.
 
-Given the circumstances, we encourage self-learners to generally avoid textbooks and start with [recordings of CS 186](https://www.youtube.com/user/CS186Berkeley/videos), Joe Hellerstein’s databases course at Berkeley, and to progress to reading papers after.
+Trong hoàn cảnh đó, chúng tôi khuyến khích những người tự học nói chung tránh sách giáo khoa và bắt đầu với [các video CS 186](https://www.youtube.com/user/CS186Berkeley/videos), đây là khóa học cơ sở dữ liệu của Joe Hellerstein tại Berkeley, sau đó mới tiến sang đọc giáo trình hay tài liệu khác.
 
-One paper particularly worth mentioning for new students is “[Architecture of a Database System](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf)”, which uniquely provides a high-level view of how relational database management systems (RDBMS) work. This will serve as a useful skeleton for further study.
+Một tài liệu cụ thể rất đáng đề cập đối với sinh viên mới l [Kiến trúc của một hệ thống cơ sở dữ liệu](http://db.cs.berkeley.edu/papers/fntdb07-architecture.pdf). Tài liệu này cung cấp một cái nhìn độc đáo nhằm bao quát về cách hệ quản trị cơ sở dữ liệu quan hệ (RDBMS) hoạt động. Nó sẽ là một nền tảng có ích để các bạn nghiên cứu thêm.
 
-*Readings in Database Systems*, better known as [the databases “Red Book”](http://www.redbook.io/), is a collection of papers compiled and edited by Peter Bailis, Joe Hellerstein and Michael Stonebraker. For those who have progressed beyond the level of the CS 186 content, the Red Book should be your next stop.
+*Đọc trong Hệ thống cơ sở dữ liệu*, còn hay được gọi là [cơ sở dữ liệu “Sách đỏ”](http://www.redbook.io/), là một bộ sưu tập các bài viết do Peter Bailis, Joe Hellerstein, và Michael Stonebraker biên soạn và chỉnh sửa. Đối với những người đã đạt ngưỡng vượt qua mức nội dung của CS 186, "Sách đỏ" sẽ là điểm dừng tiếp theo của bạn.
 
-If you're adamant about using an introductory textbook, we suggest *[Database Management Systems](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/)* by Ramakrishnan and Gehrke. For more advanced students, Jim Gray’s classic *[Transaction Processing: Concepts and Techniques](https://www.amazon.com/Transaction-Processing-Concepts-Techniques-Management/dp/1558601902)* is worthwhile, but we don’t encourage using this as a first resource.
+Nếu bạn kiên quyết sử dụng sách giáo trình cho người mới học, chúng tôi đề xuất *[Hệ thống quản lý cơ sở dữ liệu](https://smile.amazon.com/Database-Management-Systems-Raghu-Ramakrishnan/dp/0072465638/)* của Ramakrishnan và Gehrke. Đối với sinh viên có hiểu biết tốt hơn, cuốn sách kinh điển của Jim Gray *[Xử lý giao dịch: Khái niệm và kỹ thuật](https://www.amazon.com/Transaction-Processing-Concept-Techniques-Management/dp/1558601902)* rất đáng giá, nhưng chúng tôi không không khuyến khích sử dụng những tài liệu này ngay từ đầu.
 
-Finally, data modeling is a neglected and poorly taught aspect of working with databases. Our suggested book on the topic is *[Data and Reality: A Timeless Perspective on Perceiving and Managing Information in Our Imprecise World](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)*.
+Cuối cùng, mô hình hóa dữ liệu là một khía cạnh bị bỏ quên và không được chú trọng khi dạy về làm việc với cơ sở dữ liệu. Về chủ đề này, chúng tôi đề xuất *[Dữ liệu và Thực tế: Quan điểm vượt thời gian về việc nhận thức và quản lý thông tin trong thế giới không chính xác của chúng ta](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)*.
 
-[![Readings in Database Systems](./Teach%20Yourself%20Computer%20Science_files/redbook.jpg)](http://www.redbook.io/) [![Data and Reality](./Teach%20Yourself%20Computer%20Science_files/data-reality.jpg)](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
+[![@todo Đọc trong Hệ thống cơ sở dữ liệu](./Teach%20Yourself%20Computer%20Science_files/redbook.jpg)](http://www.redbook.io/) [![Data and Reality](./Teach%20Yourself%20Computer%20Science_files/data-reality.jpg)](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
 
-### Languages and Compilers
+### Ngôn ngữ và Trình biên dịch
 
-Most programmers learn languages, whereas most computer scientists learn *about* languages. This gives the computer scientist a distinct advantage over the programmer, even in the domain of programming! Their knowledge generalizes; they are able to understand the operation of a new language more deeply and quickly than those who have merely learned specific languages.
+Hầu hết các lập trình viên học ngôn ngữ, trong khi hầu hết các nhà khoa học máy tính học *về* ngôn ngữ. Điều này mang lại cho nhà khoa học máy tính một lợi thế khác biệt so với lập trình viên, ngay cả trong lĩnh vực lập trình! Kiến thức của họ khái quát; họ có thể hiểu hoạt động của một ngôn ngữ mới sâu hơn và nhanh hơn so với những người chỉ đơn thuần học một ngôn ngữ cụ thể.
 
-Our suggested introductory text is the excellent *[Crafting Interpreters](https://craftinginterpreters.com/contents.html)* by Bob Nystrom, available for free online. It's well organized, highly entertaining, and well suited to those whose primary goal is simply to better understand their languages and language tools. We suggest taking the time to work through the whole thing, attempting whichever of the "challenges" sustain your interest.
+Chúng tôi đề xuất cuốn giáo trình tuyệt vời được cung cấp miễn phí trực tuyến *[Crafting Interpreters](https://craftinginterpreters.com/contents.html)* của Bob Nystrom. Nó được tổ chức tốt, mang tính thư giãn cao và rất phù hợp với những người có mục tiêu chính là hiểu rõ hơn về ngôn ngữ và công cụ cho ngôn ngữ của họ. Chúng tôi khuyên bạn nên dành thời gian để giải quyết toàn bộ vấn đề, thử bất kỳ "thách thức" nào mà bạn quan tâm.
 
-A more traditional recommendation is *[Compilers: Principles, Techniques & Tools](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)*, commonly called “the Dragon Book”. Unfortunately, it’s not designed for self-study, but rather for instructors to pick out 1-2 semesters worth of topics for their courses.
+Một đề xuất truyền thống hơn là *[Trình biên dịch: Nguyên tắc, Kỹ thuật & Công cụ](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)*, thường được gọi là “Sách Rồng”. Thật không may, nó không được thiết kế để tự học mà để giảng viên chọn ra các chủ đề có giá trị trong từ 1-2 học kỳ cho các khóa học của họ.
 
-If you elect to use the Dragon Book, it’s almost essential that you cherry-pick the topics, ideally with the help of a mentor. In fact, our suggested way to utilize the Dragon Book, if you so choose, is as a supplementary reference for a video lecture series. Our recommended one is [Alex Aiken’s, on edX](https://www.edx.org/course/compilers).
+Nếu bạn chọn sử dụng "Sách Rồng", điều quan trọng là bạn phải chọn trước các chủ đề, tốt nhất là với sự giúp đỡ của một người cố vấn. Trên thực tế, nhằm khai thác tối đa "Sách Rồng", chúng tôi đề xuất sử dụng nó như là tài liệu tham khảo bổ sung cho một bài giảng video. Đề xuất của chúng tôi cho là [bài giảng video của Alex Aiken trên edX](https://www.edx.org/course/compilers).
 
-[![Compilers: Principles, Techniques & Tools](./Teach%20Yourself%20Computer%20Science_files/dragon.jpg)](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
+[![@todo Trình biên dịch: Nguyên tắc, Kỹ thuật & Công cụ](./Teach%20Yourself%20Computer%20Science_files/dragon.jpg)](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
 
-> Don’t be a boilerplate programmer. Instead, build tools for users and other programmers. Take historical note of textile and steel industries: do you want to build machines and tools, or do you want to operate those machines?
+> Đừng là một lập trình viên dập khuôn. Thay vào đó, hãy xây dựng các công cụ cho người dùng và các lập trình viên khác. Hãy xem lại lịch sử của ngành dệt may và thép: bạn muốn chế tạo máy móc và công cụ, hay bạn muốn vận hành những máy móc đó?
 
-— Ras Bodik at the start of his compilers course
+- Ras Bodik nói ở phần mở đầu khóa học trình biên dịch viên của mình
 
-### Distributed Systems
+### Hệ thống phân tán
 
-As computers have increased in number, they have also *spread*. Whereas businesses would previously purchase larger and larger mainframes, it’s typical now for even very small applications to run across multiple machines. Distributed systems is the study of how to reason about the trade-offs involved in doing so.
+Khi số lượng máy tính tăng lên, chúng cũng *lan rộng*. Trong khi các doanh nghiệp trước đây thường mua các máy tính càng ngày càng lớn hơn, thì giờ đây việc các ứng dụng thậm chí rất nhỏ chạy trên nhiều máy tính cũng rất phổ biến. Hệ thống phân tán là nghiên cứu về các đánh đổi khi sử dụng nó.
 
-Our suggested book for self-study is Martin Kleppmann's *[Designing Data-Intensive Applications](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/)*. Far better than a traditional textbook, DDIA is a highly readable book designed for practitioners, which somehow avoids sacrificing depth or rigor.
+Cuốn sách gợi ý của chúng tôi để tự học là của Martin Kleppmann *[Thiết kế các ứng dụng chuyên sâu về dữ liệu](https://smile.amazon.com/Designs-Data-Intensive-Appilities-Reliable-Maintainable-ebook/dp/B06XPJML5D/)*. Cuốn sách này tốt hơn nhiều so với một cuốn sách giáo trình truyền thống, rất dễ đọc, và được thiết kế cho những người thực hành, tránh được việc tìm hiểu quá sâu và học thuật.
 
-For those seeking a more traditional text, or who would prefer one that’s available for free online, we suggest Maarten van Steen and Andrew Tanenbaum’s *[Distributed Systems, 3rd Edition](https://www.distributed-systems.net/index.php/books/ds3/)*.
+Đối với những người tìm kiếm một giáo trình truyền thống hơn hoặc những người muốn tài liệu được cung cấp miễn phí trực tuyến, chúng tôi khuyên bạn nên sử dụng *[Hệ thống phân tán, phiên bản thứ 3](https://www.distributed-systems.net/index.php/books/ds3/)* của Maarten van Steen và Andrew Tanenbaum. 
 
-For those who prefer video, an excellent course with videos available online is [MIT’s 6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB), a graduate course taught by Robert Morris with readings available [here](https://pdos.csail.mit.edu/6.824/schedule.html).
+Đối với những người thích video, một khóa học tuyệt vời với các video trực tuyến là [MIT's 6.824](https://www.youtube.com/watch?v=cQP8WApzIQQ&list=PLrw6a1wE39_tb2fErI4-WkMbsvGQk9_UB), một khóa học sau đại học do Robert Morris giảng dạy với các bài viết được cung cấp [tại đây](https://pdos.csail.mit.edu/6.824/schedule.html).
 
-No matter the choice of textbook or other secondary resources, study of distributed systems absolutely mandates reading papers. A good list is [here](http://dsrg.pdos.csail.mit.edu/papers/), and we would highly encourage attending your local [Papers We Love](http://paperswelove.org/) chapter.
+Bất kể bạn lựa chọn sách giáo trình hay các tài nguyên thứ cấp khác, việc nghiên cứu các hệ thống phân tán đòi hỏi phải đọc các bài viết nghiên cứu liên quan. Bạn có thể tìm hiểu danh sách này [tại đây](http://dsrg.pdos.csail.mit.edu/papers/) và chúng tôi thực sự khuyến khích bạn tham dự một nhóm của [Papers We Love](http://paperswelove.org/) tại khu vực của bạn.
 
-[![Designing Data-Intensive Applications](./Teach%20Yourself%20Computer%20Science_files/ddia.jpg)](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/)
+[![@todo Thiết kế các ứng dụng chuyên sâu về dữ liệu](./Teach%20Yourself%20Computer%20Science_files/ddia.jpg)](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/)
 
-Frequently asked questions
+Các câu hỏi thường gặp
 --------------------------
 
-#### Who is the target audience for this guide?
+#### Đối tượng mục tiêu của hướng dẫn này là ai?
 
-We have in mind that you are a self-taught software engineer, bootcamp grad or precocious high school student, or a college student looking to supplement your formal education with some self-study. The question of when to embark upon this journey is an entirely personal one, but most people tend to benefit from having some professional experience before diving too deep into CS theory. For instance, we notice that students *love* learning about database systems if they have already worked with databases professionally, or about computer networking if they’ve worked on a web project or two.
+Trong suy nghĩ của chúng tôi, bạn là một kỹ sư phần mềm tự học, tốt nghiệp từ bootcamp hoặc học sinh phổ thông có khả năng, hoặc một sinh viên đại học đang tìm cách bổ sung cho chương trình giáo dục chính thức của mình bằng cách tự học. Câu hỏi về thời điểm bắt đầu cuộc hành trình này là một câu hỏi hoàn toàn cá nhân đối với mỗi người, nhưng hầu hết mọi người có xu hướng được hưởng lợi từ việc có một số kinh nghiệm chuyên môn trước khi đi quá sâu vào các lý thuyết KHMT. Ví dụ: chúng tôi nhận thấy rằng sinh viên *thích* học về hệ thống cơ sở dữ liệu nếu họ đã làm việc với cơ sở dữ liệu trong công việc, hoặc về mạng máy tính nếu họ đã làm việc trên một hoặc hai dự án web.
 
-#### What about AI/graphics/pet-topic-X?
+#### AI/graphics/chủ-đề-X thì sao?
 
-We’ve tried to limit our list to computer science topics that we feel *every practicing software engineer* should know, irrespective of specialty or industry, but with a focus on systems. In our experience, these will be the highest ROI topics for the overwhelming majority of self-taught engineers and bootcamp grads, and provide a solid foundation for further study. Subsequently, you’ll be in a much better position to pick up textbooks or papers and learn the core concepts without much guidance. Here are our suggested starting points for a couple of common “electives”:
+Chúng tôi đã cố gắng giới hạn danh sách của mình trong các chủ đề khoa học máy tính mà chúng tôi cảm thấy *mọi kỹ sư phần mềm làm việc thực tế* đều nên biết, bất kể chuyên môn hay ngành cụ thể nào. Theo kinh nghiệm của chúng tôi, đây sẽ là những chủ đề đêm lại hiệu quả cao nhất cho phần lớn các kỹ sư tự học và sinh viên tốt nghiệp bootcamp, đồng thời cung cấp một nền tảng vững chắc để nghiên cứu thêm. Sau đó, bạn sẽ ở một vị trí tốt hơn để chọn sách giáo trình hoặc các nghiên cứu, và học các khái niệm cốt lõi mà không cần hướng dẫn nhiều. Dưới đây là các điểm khởi đầu mà của chúng tôi đề xuất cho một số “môn tự chọn” phổ biến:
 
--   For artificial intelligence: do [Berkeley’s intro to AI course](http://ai.berkeley.edu/) by watching the videos and completing the excellent Pacman projects. As a textbook, use Russell and Norvig’s *Artificial Intelligence: A Modern Approach*.
--   For machine learning: do Andrew Ng’s Coursera course. Be patient, and make sure you understand the fundamentals before racing off to shiny new topics like deep learning.
--   For computer graphics: work through [Berkeley’s CS 184](http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html) material, and use [Computer Graphics: Principles and Practice](https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528) as a textbook.
+- Đối với trí tuệ nhân tạo: học [Khóa học giới thiệu về AI của trường Berkeley](http://ai.berkeley.edu/) bằng cách xem video và hoàn thành các dự án Pacman. Dưới dạng sách giáo trình, hãy sử dụng sách của Russell và Norvig, mang tên *Trí tuệ nhân tạo: Phương pháp tiếp cận hiện đại*.
+- Đối với học máy: thực hiện khóa học của Andrew Ng trên Coursera. Hãy kiên nhẫn và đảm bảo rằng bạn hiểu các nguyên tắc cơ bản trước khi bắt đầu với các chủ đề mới hấp dẫn hơn như học sâu.
+- Đối với đồ họa máy tính: học [Berkeley's CS 184](http://inst.eecs.berkeley.edu/~cs184/fa12/onlinelectures.html), và sử dụng tài liệu [Đồ họa máy tính: Nguyên tắc và thực hành](https://www.amazon.com/Computer-Graphics-Principles-Practice-3rd/dp/0321399528) dưới dạng sách giáo trình.
 
-#### How strict is the suggested sequencing?
+#### Thứ tự được đề xuất nghiêm ngặt đến mức nào?
 
-Realistically, all of these subjects have a significant amount of overlap, and refer to one another cyclically. Take for instance the relationship between discrete math and algorithms: learning math first would help you analyze and understand your algorithms in greater depth, but learning algorithms first would provide greater motivation and context for discrete math. Ideally, you’d revisit both of these topics many times throughout your career.
+Trên thực tế, tất cả các chủ thể này có một số lượng trùng lặp đáng kể và liên quan đến nhau. Ví dụ: mối quan hệ giữa toán học rời rạc và thuật toán: học toán trước tiên sẽ giúp bạn phân tích và hiểu các thuật toán của mình sâu hơn, nhưng học thuật toán trước sẽ cung cấp động lực và bối cảnh lớn hơn cho toán học rời rạc. Tốt nhất, bạn nên xem lại cả hai chủ đề này nhiều lần trong suốt sự nghiệp của mình.
 
-As such, our suggested sequencing is mostly there to help you *just get started*… if you have a compelling reason to prefer a different sequence, then go for it. The most significant “pre-requisites” in our opinion are: computer architecture before operating systems or databases, and networking and operating systems before distributed systems.
+Do đó, thứ tự được đề xuất của chúng tôi chủ yếu ở đó để giúp bạn *chỉ việc bắt đầu*... nếu bạn có lý do thuyết phục để chọn một trình tự khác, thì hãy tiếp tục với nó. “Điều kiện tiên quyết” quan trọng nhất theo quan điểm của chúng tôi là: kiến ​​trúc máy tính trước hệ điều hành hoặc cơ sở dữ liệu, mạng và hệ điều hành trước hệ thống phân tán.
 
-#### How does this compare to Open Source Society or freeCodeCamp curricula?
+#### Hướng dẫn này so với các khoá học Open Source Society hoặc freeCodeCamp thì sao?
 
-When this guide was first written in 2016, the [OSS guide](https://github.com/open-source-society/computer-science) had too many subjects, suggested inferior resources for many of them, and provided no rationale or guidance around why or what aspects of particular courses are valuable. We strove to limit our list of courses to those which you *really should know* as a software engineer, irrespective of your specialty, and to help you understand why each course is included. In the subsequent years, the OSS guide has improved, but we still think that this one provides a clearer, more cohesive path.
+Khi hướng dẫn này được viết lần đầu tiên vào năm 2016, [Hướng dẫn phần mềm nguồn mở OSS](https://github.com/open-source-society/computer-science) có quá nhiều chủ đề, đề xuất nhiều tài liệu không tốt cho nhiều chủ đề, và không cung cấp lý do cụ thể về việc tại sao hoặc khía cạnh nào của các khóa học có giá trị. Chúng tôi đã cố gắng giới hạn danh sách các khóa học của mình mà bạn *thực sự nên biết* với tư cách là một kỹ sư phần mềm bất kể chuyên môn của bạn, và giúp bạn hiểu lý do tại sao mỗi khóa học được bao gồm. Trong những năm tiếp theo, "Hướng dẫn phần mềm nguồn mở OSS" đã được cải thiện, nhưng chúng tôi vẫn nghĩ rằng hướng dẫn này của chúng tôi cung cấp một con đường rõ ràng và gắn kết hơn.
 
-freeCodeCamp is focused mostly on programming, not computer science. For why you might want to learn computer science, see [above](https://teachyourselfcs.com/#why). If you are new to programming, we suggest prioritizing that, and returning to this guide in a year or two.
+freeCodeCamp chủ yếu tập trung vào lập trình, không phải khoa học máy tính. Để biết lý do tại sao bạn có thể muốn học khoa học máy tính, hãy xem lại [ở trên @todo](https://teachyourselfcs.com/#why). Nếu bạn chưa quen với lập trình, chúng tôi khuyên bạn nên ưu tiên làm điều đó và quay lại hướng dẫn này sau một hoặc hai năm.
 
-#### What about language X?
+#### Còn ngôn ngữ X thì sao?
 
-Learning a particular programming language is on a totally different plane to learning about an area of computer science — learning a language is much *easier* and much *less valuable*. If you already know a couple of languages, we strongly suggest simply following our guide and fitting language acquisition in the gaps, or leaving it for afterwards. If you’ve learned programming well (such as through *Structure and Interpretation of Computer Programs*), and especially if you have learned compilers, it should take you little more than a weekend to learn the essentials of a new language, after which you can learn about the libraries/tooling/ecosystem on the job.
+Học một ngôn ngữ lập trình cụ thể hoàn toàn khác với việc học về một lĩnh vực khoa học máy tính - học một ngôn ngữ sẽ *dễ dàng hơn* và *ít giá trị hơn nhiều*. Nếu bạn đã biết một vài ngôn ngữ, chúng tôi thực sự khuyên bạn chỉ cần làm theo hướng dẫn của chúng tôi và ghép nối giữa ngôn ngữ bạn biết và các khoảng trống kiến thức. Nếu bạn đã học lập trình tốt (chẳng hạn như thông qua *Cấu trúc và diễn giải các chương trình máy tính*), và đặc biệt là nếu bạn đã học trình biên dịch, bạn chỉ sẽ mất hơn một tuần để học những điều cần thiết của một ngôn ngữ mới, sau đó bạn có thể tìm hiểu về các thư viện/công cụ/hệ sinh thái trong công việc.
 
-#### What about trendy technology X?
+#### Công nghệ thời thượng X thì sao?
 
-No single technology is important enough that learning to use it should be a core part of your education. On the other hand, it’s great that you’re excited to learn about that thing. The trick is to work backwards from the particular technology to the underlying field or concept, and learn that in depth before seeing how your trendy technology fits into the bigger picture.
+Không có công nghệ đơn lẻ nào là đủ quan trọng để trở thành một phần cốt lõi trong quá trình học tập và tìm hiểu của bạn. Tuy nhiên, thật tuyệt khi bạn rất hào hứng khi tìm hiểu về công nghệ đó. Bí quyết là làm việc từ công nghệ cụ thể, học sang lĩnh vực hoặc khái niệm cơ bản, và tìm hiểu sâu về điều đó trước khi xem công nghệ thời thượng của bạn phù hợp như thế nào với bức tranh lớn hơn.
 
-#### Why are you still recommending SICP?
+#### Tại sao bạn vẫn đề xuất SICP?
 
-Look, just try it. Some people find SICP mind blowing, a characteristic shared by very few other books. If you don't like it, you can always try something else and perhaps return to SICP later.
+Bạn hãy nhìn xem. Một số người thấy "Cấu trúc và diễn giải các chương trình máy tính" (SICP) thật sự khó hiểu và đau đầu, đây là một đặc điểm mà rất ít cuốn sách khác có đặc điểm chung. Nếu bạn không thấy thích cuốn sách này, bạn luôn có thể thử một cái gì đó khác và quay lại với SICP sau.
 
-#### Why are you still recommending the Dragon book?
+#### Tại sao bạn vẫn giới thiệu cuốn "Sách Rồng"?
 
-The Dragon book is still the most complete single resource for compilers. It gets a bad rap, typically for overemphasizing certain topics that are less fashionable to cover in detail these days, such as parsing. The thing is, the book was never intended to be studied cover to cover, only to provide enough material for an instructor to put together a course. Similarly, a self-learner can choose their own adventure through the book, or better yet follow the suggestions that lecturers of public courses have made in their course outlines.
+"Sách Rồng" vẫn là tài liệu đơn lẻ đầy đủ nhất cho các trình biên dịch. Nó có một đoạn tệ, thường là do nhấn mạnh quá mức vào một số chủ đề không hợp để đề cập chi tiết ngày nay, chẳng hạn như parsing (phân tích). Vấn đề là, cuốn sách không bao giờ có ý định nghiên cứu từ trang đầu đến trang cuối, mà nó chỉ nhằm cung cấp nguồn tài liệu đầy đủ cho một giảng viên tổng hợp chúng thành một khóa học. Tương tự, một người tự học có thể chọn cuộc lối đi của riêng họ thông qua cuốn sách, hoặc tốt hơn là làm theo những gợi ý mà các giảng viên đã đưa ra trong các tóm tắt khóa học của họ.
 
-#### How can I get textbooks cheaply?
+#### Làm cách nào để mua sách giáo trình với giá rẻ?
 
-Many of the textbooks we suggest are freely available online, thanks to the generosity of their authors. For those that aren’t, we suggest buying used copies of older editions. As a general rule, if there has been more than a couple of editions of a textbook, it’s quite likely that an older edition is perfectly adequate. It’s certainly unlikely that the newest version is 10x better than an older one, even if that’s what the price difference is!
+Nhiều sách giáo trình mà chúng tôi đề xuất được cung cấp miễn phí trên mạng, nhờ sự hào phóng của tác giả. Đối với những sách không có, chúng tôi khuyên bạn nên mua các cuốn sách đã qua sử dụng của các phiên bản cũ hơn. Theo nguyên tắc chung, nếu đã có nhiều hơn một vài ấn bản sách giáo trình, thì rất có thể một phiên bản cũ hơn là hoàn toàn phù hợp. Chắc chắn một điều là phiên bản mới nhất tốt không thể tốt hơn 10 lần so với phiên bản cũ hơn, ngay cả khi đó là sự khác biệt về giá giữa hai phiên bản!
 
-#### Who made this?
+#### Ai tạo ra hướng dẫn này?
 
-This guide was originally written by [Oz Nova](https://twitter.com/oznova_) and [Myles Byrne](https://twitter.com/quackingduck), with 2020 updates by Oz. It is based on our experience teaching foundational computer science to over 1000 mostly self-taught engineers and bootcamp grads in small group settings in San Francisco and live online. Thank you to all of our students for your continued feedback on self-teaching resources.
+Hướng dẫn này ban đầu được viết bởi [Oz Nova](https://twitter.com/oznova_) và [Myles Byrne](https://twitter.com/quackingduck), với các cập nhật vào 2020 của Oz. Nó dựa trên kinh nghiệm của chúng tôi giảng dạy kiến thức khoa học máy tính nền tảng cho hơn 1000 kỹ sư chủ yếu là tự học và sinh viên tốt nghiệp bootcamp mà học trong các nhóm nhỏ ở San Francisco hay trực tuyến. Cảm ơn tất cả các sinh viên của chúng tôi vì đã tiếp tục phản hồi về các nguồn tài liệu tự học.
 
-We're very confident that you could teach yourself everything above, given enough time and motivation. But if you'd prefer an intensive, structured, instructor-led program, you might be interested in our [Computer Science Intensive](https://bradfieldcs.com/csi/). We [DON'T](https://ozwrites.com/masters/) suggest pursuing a master's degree.
+Chúng tôi rất tự tin rằng bạn có thể tự học mọi thứ ở trên, nếu có đủ thời gian và động lực. Nhưng nếu bạn thích một chương trình chuyên sâu, có cấu trúc, có người hướng dẫn, bạn có thể quan tâm đến khoá học về máy tính trên https://bradfieldcs.com/csi/ của chúng tôi. Chúng tôi [KHÔNG](https://ozwrites.com/masters/) khuyên bạn theo đuổi bằng thạc sĩ.
 
-For updates to this guide and general computer science news and resources, you may also like to join Bradfield's mailing list:
-
-Thanks for subscribing!
+Để nhận các cập nhật mới về hướng dẫn này, tin tức và tài liệu về ngành khoa học máy tính, bạn có thể đăng ký email của bạn với Bradfield: [truy cập vào cuối trang https://teachyourselfcs.com/ để đăng ký].
 
 [hello@bradfieldcs.com](mailto:hello@bradfieldcs.com)
- San Francisco, California
- © 2016-2020 Bradfield School of Computer Science
+Sanfrancisco, California
+© 2016-2020 Trường Khoa học Máy tính Bradfield

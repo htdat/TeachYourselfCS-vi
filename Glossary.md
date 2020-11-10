@@ -8,3 +8,4 @@
 |code|mã, mã máy tính|
 |compiler|trình biên dịch|
 |language|ngôn ngữ máy tính|
+|OSS, Open Source Software|Phần mềm nguồn mở|
