@@ -48,7 +48,7 @@ Các kỹ sư loại 1 tìm cách học chuyên sâu về KHMT, cho dù thông q
 
 Hiện tại, số lượng người vào ngành IT đang tăng lên nhanh chóng, trong khi số lượng người tốt nghiệp KHMT thì  tương đối ổn định. Tình trạng dư cung của cá kỹ sư loại 2 này đang bắt đầu làm giảm cơ hội việc làm của chính họ, và đẩy họ ra khỏi ngành IT. Cho dù bạn đang phấn đấu để trở thành kỹ sư loại 1 hay chỉ đơn giản là tìm kiếm công việc an toàn hơn, học KHMT là con đường đúng đắn duy nhất.
 
-[![@todo](./Teach%20Yourself%20Computer%20Science_files/bilotta-tweet.png)](https://twitter.com/jenna/status/838161631662092289)
+[![](./images/bilotta-tweet.png)](https://twitter.com/jenna/status/838161631662092289)
 
 Hướng dẫn chi tiết cho các chủ đề
 --------------
@@ -70,7 +70,7 @@ Nếu bạn không cảm thấy thích SICP, hãy thử *[Soạn thảo chương
 Cuối cùng, một điểm cần làm rõ: hướng dẫn này KHÔNG được thiết kế cho những người hoàn toàn mới học lập trình. Chúng tôi giả định rằng bạn là một lập trình viên có năng lực mà không có nền tảng về KHMT, đang tìm cách lấp đầy một số lỗ hổng kiến ​​thức. Thực tế là chúng tôi đặt ra một chủ đề về "lập trình" chỉ đơn giản là một lời nhắc nhở rằng bạn có thể cần tìm hiểu nhiều hơn nữa. Đối với những người chưa bao giờ viết mã trước đây, nhưng nếu muốn, bạn có thể thích một hướng dẫn như [cái này](https://www.reddit.com/r/learnprogramming/wiki/faq#wiki_getting_started).
 
 
-[![@todo Structure and Interpretation of Computer Programs](./Teach%20Yourself%20Computer%20Science_files/sicp.jpg)](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
+[![Cấu trúc và diễn giải các chương trình máy tính](./images/sicp.jpg)](https://mitpress.mit.edu/sites/default/files/sicp/full-text/book/book.html)
 
 ### Kiến trúc máy tính
 
@@ -90,7 +90,7 @@ Khi tìm kiếm sự đơn giản và gắn kết, Nand2Tetris đánh đổi v�
 
 Khi bạn cảm thấy thoải mái với nội dung của Nand2Tetris, chúng tôi khuyên bạn nên quay lại CS: APP hoặc xem xét cuốn sách kinh điển và xuất sắc *[Tổ chức máy tính và thiết kế](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)* của Patterson và Hennessy. Không phải mọi phần trong sách đều cần thiết; chúng tôi khuyên bạn nên theo dõi [khóa học CS61C của Berkeley](http://inst.eecs.berkeley.edu/~cs61c/sp15/) “Những ý tưởng tuyệt vời trong kiến ​​trúc máy tính” để có thể đọc cụ thể. Các ghi chú bài giảng và phòng thử nghiệm  được cung cấp trực tuyến, và các bài giảng trước đây có thể xem trên [Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_). 
 
-[![@todo Hệ thống máy tính: Góc nhìn của một lập trình viên](./Teach%20Yourself%20Computer%20Science_files/csapp.jpg)](http://csapp.cs.cmu.edu/3e/home.html)
+[![Hệ thống máy tính: Góc nhìn của một lập trình viên](./images/csapp.jpg)](http://csapp.cs.cmu.edu/3e/home.html)
 
 > Phần cứng là nền tảng
 
@@ -109,7 +109,7 @@ Có hàng trăm cuốn sách ngoài kia, nhưng cuốn sách yêu thích của c
 
 Cuối cùng, chúng tôi đề xuất cuốn sách *[Cách giải quyết](https://smile.amazon.com/How-Solve-Mathelogical-Princeton-Science/dp/069116407X/)* như một hướng dẫn tuyệt vời và độc đáot liên quan tới giải quyết vấn đề nói chung; nó hữu dụng cho khoa học máy tính cũng như toán học.
 
-[![@todo Hướng dẫn Thiết kế Thuật toán](./Teach%20Yourself%20Computer%20Science_files/skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) [![@todo Cách giải quyết](./Teach%20Yourself%20Computer%20Science_files/polya.jpg)](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)
+[![Hướng dẫn Thiết kế Thuật toán](./images/skiena.jpg)](https://smile.amazon.com/Algorithm-Design-Manual-Steven-Skiena/dp/1848000693/) [![Cách giải quyết](./images/polya.jpg)](https://smile.amazon.com/How-Solve-Mathematical-Princeton-Science/dp/069116407X/)
 
 > Tôi chỉ có một phương pháp mà tôi đề xuất rộng rãi. Đó là suy nghĩ trước khi bạn viết.
 
@@ -141,7 +141,7 @@ Sau *Hệ điều hành: Ba mảnh dễ dàng*, chúng tôi khuyến khích bạ
 
 Một cách rất tốt để củng cố sự hiểu biết của bạn về hệ điều hành là đọc mã của một hạt nhân nhỏ và thêm các tính năng. Một lựa chọn là [xv6](https://pdos.csail.mit.edu/6.828/2016/xv6.html), một phiên bản từ Unix V6 sang ANSI C và x86, nó được duy trì cho một khóa học tại MIT. *Hệ điều hành: Ba mảnh dễ dàng* có một phụ lục về tiềm năng của [xv6 labs](http://pages.cs.wisc.edu/~remzi/OSTEP/lab-projects-xv6.pdf), trong đó nêu ra những ý tưởng tuyệt vời cho các dự án tiềm năng.
 
-[![@todo Hệ điều hành: Ba mảnh dễ dàng](./Teach%20Yourself%20Computer%20Science_files/ostep.jpeg)](http://pages.cs.wisc.edu/~remzi/OSTEP/)
+[![Hệ điều hành: Ba mảnh dễ dàng](./images/ostep.jpeg)](http://pages.cs.wisc.edu/~remzi/OSTEP/)
 
 ### Mạng máy tính
 
@@ -155,7 +155,7 @@ Cuốn sách yêu thích của chúng tôi về chủ đề này là *[Mạng m�
 
 - Bob Kahn
 
-[![@todo Mạng máy tính: một cách tiếp cận từ tầng trên xuống dưới](./Teach%20Yourself%20Computer%20Science_files/top-down.jpg)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
+[![Mạng máy tính: một cách tiếp cận từ tầng trên xuống dưới](./images/top-down.jpg)](https://smile.amazon.com/Computer-Networking-Top-Down-Approach-7th/dp/0133594149/)
 
 ### Cơ sở dữ liệu
 
@@ -171,7 +171,7 @@ Nếu bạn kiên quyết sử dụng sách giáo trình cho người mới họ
 
 Cuối cùng, mô hình hóa dữ liệu là một khía cạnh bị bỏ quên và không được chú trọng khi dạy về làm việc với cơ sở dữ liệu. Về chủ đề này, chúng tôi đề xuất *[Dữ liệu và Thực tế: Quan điểm vượt thời gian về việc nhận thức và quản lý thông tin trong thế giới không chính xác của chúng ta](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)*.
 
-[![@todo Đọc trong Hệ thống cơ sở dữ liệu](./Teach%20Yourself%20Computer%20Science_files/redbook.jpg)](http://www.redbook.io/) [![Data and Reality](./Teach%20Yourself%20Computer%20Science_files/data-reality.jpg)](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
+[![Đọc trong Hệ thống cơ sở dữ liệu](./images/redbook.jpg)](http://www.redbook.io/) [![Data and Reality](./images/data-reality.jpg)](https://www.amazon.com/Data-Reality-Perspective-Perceiving-Information/dp/1935504215)
 
 ### Ngôn ngữ và Trình biên dịch
 
@@ -183,7 +183,7 @@ Một đề xuất truyền thống hơn là *[Trình biên dịch: Nguyên tắ
 
 Nếu bạn chọn sử dụng "Sách Rồng", điều quan trọng là bạn phải chọn trước các chủ đề, tốt nhất là với sự giúp đỡ của một người cố vấn. Trên thực tế, nhằm khai thác tối đa "Sách Rồng", chúng tôi đề xuất sử dụng nó như là tài liệu tham khảo bổ sung cho một bài giảng video. Đề xuất của chúng tôi cho là [bài giảng video của Alex Aiken trên edX](https://www.edx.org/course/compilers).
 
-[![@todo Trình biên dịch: Nguyên tắc, Kỹ thuật & Công cụ](./Teach%20Yourself%20Computer%20Science_files/dragon.jpg)](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
+[![Trình biên dịch: Nguyên tắc, Kỹ thuật & Công cụ](./images/dragon.jpg)](https://smile.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811)
 
 > Đừng là một lập trình viên dập khuôn. Thay vào đó, hãy xây dựng các công cụ cho người dùng và các lập trình viên khác. Hãy xem lại lịch sử của ngành dệt may và thép: bạn muốn chế tạo máy móc và công cụ, hay bạn muốn vận hành những máy móc đó?
 
@@ -201,7 +201,7 @@ Cuốn sách gợi ý của chúng tôi để tự học là của Martin Kleppm
 
 Bất kể bạn lựa chọn sách giáo trình hay các tài nguyên thứ cấp khác, việc nghiên cứu các hệ thống phân tán đòi hỏi phải đọc các bài viết nghiên cứu liên quan. Bạn có thể tìm hiểu danh sách này [tại đây](http://dsrg.pdos.csail.mit.edu/papers/) và chúng tôi thực sự khuyến khích bạn tham dự một nhóm của [Papers We Love](http://paperswelove.org/) tại khu vực của bạn.
 
-[![@todo Thiết kế các ứng dụng chuyên sâu về dữ liệu](./Teach%20Yourself%20Computer%20Science_files/ddia.jpg)](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/)
+[![Thiết kế các ứng dụng chuyên sâu về dữ liệu](./images/ddia.jpg)](https://smile.amazon.com/Designing-Data-Intensive-Applications-Reliable-Maintainable-ebook/dp/B06XPJML5D/)
 
 Các câu hỏi thường gặp
 --------------------------
@@ -228,7 +228,7 @@ Do đó, thứ tự được đề xuất của chúng tôi chủ yếu ở đó
 
 Khi hướng dẫn này được viết lần đầu tiên vào năm 2016, [Hướng dẫn phần mềm nguồn mở OSS](https://github.com/open-source-society/computer-science) có quá nhiều chủ đề, đề xuất nhiều tài liệu không tốt cho nhiều chủ đề, và không cung cấp lý do cụ thể về việc tại sao hoặc khía cạnh nào của các khóa học có giá trị. Chúng tôi đã cố gắng giới hạn danh sách các khóa học của mình mà bạn *thực sự nên biết* với tư cách là một kỹ sư phần mềm bất kể chuyên môn của bạn, và giúp bạn hiểu lý do tại sao mỗi khóa học được bao gồm. Trong những năm tiếp theo, "Hướng dẫn phần mềm nguồn mở OSS" đã được cải thiện, nhưng chúng tôi vẫn nghĩ rằng hướng dẫn này của chúng tôi cung cấp một con đường rõ ràng và gắn kết hơn.
 
-freeCodeCamp chủ yếu tập trung vào lập trình, không phải khoa học máy tính. Để biết lý do tại sao bạn có thể muốn học khoa học máy tính, hãy xem lại [ở trên @todo](#tại-sao-phải-học-khoa-học-máy-tính). Nếu bạn chưa quen với lập trình, chúng tôi khuyên bạn nên ưu tiên làm điều đó và quay lại hướng dẫn này sau một hoặc hai năm.
+freeCodeCamp chủ yếu tập trung vào lập trình, không phải khoa học máy tính. Để biết lý do tại sao bạn có thể muốn học khoa học máy tính, hãy xem lại [ở trên](#tại-sao-phải-học-khoa-học-máy-tính). Nếu bạn chưa quen với lập trình, chúng tôi khuyên bạn nên ưu tiên làm điều đó và quay lại hướng dẫn này sau một hoặc hai năm.
 
 #### Còn ngôn ngữ X thì sao?
 
@@ -258,4 +258,4 @@ Chúng tôi rất tự tin rằng bạn có thể tự học mọi thứ ở tr�
 
 Để nhận các cập nhật mới về hướng dẫn này, tin tức và tài liệu về ngành khoa học máy tính, bạn có thể đăng ký email của bạn với Bradfield: [truy cập vào cuối trang https://teachyourselfcs.com/ để đăng ký].
 
-[hello@bradfieldcs.com](mailto:hello@bradfieldcs.com. Sanfrancisco, California. © 2016-2020 Trường Khoa học Máy tính Bradfield
+[hello@bradfieldcs.com](mailto:hello@bradfieldcs.com). Sanfrancisco, California. © 2016-2020 Trường Khoa học Máy tính Bradfield.
