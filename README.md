@@ -1,9 +1,9 @@
 Tự học Khoa học Máy Tính
 ===============================
 
-Lưu ý: trang hướng dẫn này đãc có những thay đổi lớn vào tháng 5/2020. Để xem phiên bản trước, [click vào đây](https://teachyourselfcs.com/2016/).
+Lưu ý: trang hướng dẫn này đã có những thay đổi lớn vào tháng 5/2020. Để xem phiên bản trước, [click vào đây](https://teachyourselfcs.com/2016/).
 
-Nếu bạn là một kỹ sư tự học hoặc tốt nghiệp từ bootcamp, bạn nợ chính bản thân mình việc học khoa học máy tính (KHMT). Rất may, bạn có thể tham gia một chương trình giáo dục KHMT đẳng cấp thế giới mà không cần đầu tư nhiều năm và hay một lượng tiền tương đối để có một tấm bằng 💸.
+Nếu bạn là một kỹ sư tự học hoặc tốt nghiệp từ bootcamp, bạn nợ chính bản thân mình việc học khoa học máy tính (KHMT). Rất may, bạn có thể tham gia một chương trình giáo dục KHMT đẳng cấp thế giới mà không cần đầu tư nhiều năm hay bỏ một lượng tiền tương đối để có một tấm bằng 💸.
 
 Có tương đối nhiều nguồn tài liệu ngoài kia, nhưng một số tài liệu thì tốt hơn số khác. Bạn không cần một danh sách kiểu "200 khoá học trực tuyến miễn phí". Bạn cần các câu trả lời nhưng câu hỏi sau:
 
@@ -88,7 +88,7 @@ Nửa đầu của cuốn sách (và tất cả các dự án của cuốn sách
 
 Khi tìm kiếm sự đơn giản và gắn kết, Nand2Tetris đánh đổi với độ sâu của kiến thức. Đặc biệt, hai khái niệm rất quan trọng trong kiến ​​trúc máy tính hiện đại là pipelining và phân cấp bộ nhớ, nhưng cả hai đều hầu như không có trong sách.
 
-Khi bạn cảm thấy thoải mái với nội dung của Nand2Tetris, chúng tôi khuyên bạn nên quay lại CS: APP hoặc xem xét cuốn sách kinh điển và xuất sắc *[Tổ chức máy tính và thiết kế](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)* của Patterson và Hennessy. Không phải mọi phần trong sách đều cần thiết; chúng tôi khuyên bạn nên theo dõi[khóa học CS61C của Berkeley](http://inst.eecs.berkeley.edu/~cs61c/sp15/) “Những ý tưởng tuyệt vời trong kiến ​​trúc máy tính” để có thể đọc cụ thể. Các ghi chú bài giảng và phòng thử nghiệm có sẵn trực tuyến và các bài giảng trước đây có sẵn trên [Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_). 
+Khi bạn cảm thấy thoải mái với nội dung của Nand2Tetris, chúng tôi khuyên bạn nên quay lại CS: APP hoặc xem xét cuốn sách kinh điển và xuất sắc *[Tổ chức máy tính và thiết kế](https://smile.amazon.com/Computer-Organization-Design-Fifth-Architecture/dp/0124077269)* của Patterson và Hennessy. Không phải mọi phần trong sách đều cần thiết; chúng tôi khuyên bạn nên theo dõi [khóa học CS61C của Berkeley](http://inst.eecs.berkeley.edu/~cs61c/sp15/) “Những ý tưởng tuyệt vời trong kiến ​​trúc máy tính” để có thể đọc cụ thể. Các ghi chú bài giảng và phòng thử nghiệm  được cung cấp trực tuyến, và các bài giảng trước đây có thể xem trên [Internet Archive](https://archive.org/details/ucberkeley-webcast-PL-XXv-cvA_iCl2-D-FS5mk0jFF6cYSJs_). 
 
 [![@todo Hệ thống máy tính: Góc nhìn của một lập trình viên](./Teach%20Yourself%20Computer%20Science_files/csapp.jpg)](http://csapp.cs.cmu.edu/3e/home.html)
 
@@ -135,7 +135,7 @@ Lĩnh vực toán học có liên quan nhất đối với KHMT được gọi r
 
 *[Khái niệm hệ điều hành](https://www.amazon.com/dp/1118063333/)* và *[Hệ điều hành hiện đại](https://www.amazon.com/dp/013359162X/)* là những cuốn sách “kinh điển” về hệ điều hành. Cả hai đều bị chỉ trích vì sự thiếu rõ ràng và không thân thiện với học sinh.
 
-*Hệ điều hành: Ba mảnh dễ dàng* là một giải pháp thay thế tốt, được xuất bản [trực tuyến và miễn phí] (http://pages.cs.wisc.edu/~remzi/OSTEP/). Chúng tôi đặc biệt thích cấu trúc và tính dễ đọc của cuốn sách và cảm thấy rằng các bài tập rất đáng giá.
+*Hệ điều hành: Ba mảnh dễ dàng* là một thay thế tốt, được xuất bản [trực tuyến và miễn phí](http://pages.cs.wisc.edu/~remzi/OSTEP/). Chúng tôi đặc biệt thích cấu trúc và tính dễ đọc của cuốn sách và cảm thấy rằng các bài tập rất đáng giá.
 
 Sau *Hệ điều hành: Ba mảnh dễ dàng*, chúng tôi khuyến khích bạn khám phá các quyết định thiết kế của các hệ điều hành cụ thể, thông qua các cuốn sách kiểu “Phía trong của {Tên hệ điều hành}" chẳng hạn như *[Bài bình luận của Lion về Unix](https://www.amazon.com/Lions-Commentary-Unix-John/dp/1573980137/)*, *[Thiết kế và triển khai hệ điều hành FreeBSD](https://www.amazon.com/Design-Implementation-FreeBSD-Operating-System/dp/0321968972/)* và *[Phía trong của Mac OS X](https://www.amazon.com/Mac-OS-Internals-Systems-Approach/dp/0321278542/)*. Đối với Linux, chúng tôi đề xuất cuốn sách tuyệt vời [Phát triển nhân Linux](https://www.amazon.com/Linux-Kernel-Development-Robert-Love/dp/0672329468) của Robert Love.
 
@@ -228,7 +228,7 @@ Do đó, thứ tự được đề xuất của chúng tôi chủ yếu ở đó
 
 Khi hướng dẫn này được viết lần đầu tiên vào năm 2016, [Hướng dẫn phần mềm nguồn mở OSS](https://github.com/open-source-society/computer-science) có quá nhiều chủ đề, đề xuất nhiều tài liệu không tốt cho nhiều chủ đề, và không cung cấp lý do cụ thể về việc tại sao hoặc khía cạnh nào của các khóa học có giá trị. Chúng tôi đã cố gắng giới hạn danh sách các khóa học của mình mà bạn *thực sự nên biết* với tư cách là một kỹ sư phần mềm bất kể chuyên môn của bạn, và giúp bạn hiểu lý do tại sao mỗi khóa học được bao gồm. Trong những năm tiếp theo, "Hướng dẫn phần mềm nguồn mở OSS" đã được cải thiện, nhưng chúng tôi vẫn nghĩ rằng hướng dẫn này của chúng tôi cung cấp một con đường rõ ràng và gắn kết hơn.
 
-freeCodeCamp chủ yếu tập trung vào lập trình, không phải khoa học máy tính. Để biết lý do tại sao bạn có thể muốn học khoa học máy tính, hãy xem lại [ở trên @todo](https://teachyourselfcs.com/#why). Nếu bạn chưa quen với lập trình, chúng tôi khuyên bạn nên ưu tiên làm điều đó và quay lại hướng dẫn này sau một hoặc hai năm.
+freeCodeCamp chủ yếu tập trung vào lập trình, không phải khoa học máy tính. Để biết lý do tại sao bạn có thể muốn học khoa học máy tính, hãy xem lại [ở trên @todo](#tại-sao-phải-học-khoa-học-máy-tính). Nếu bạn chưa quen với lập trình, chúng tôi khuyên bạn nên ưu tiên làm điều đó và quay lại hướng dẫn này sau một hoặc hai năm.
 
 #### Còn ngôn ngữ X thì sao?
 
@@ -244,7 +244,7 @@ Bạn hãy nhìn xem. Một số người thấy "Cấu trúc và diễn giải 
 
 #### Tại sao bạn vẫn giới thiệu cuốn "Sách Rồng"?
 
-"Sách Rồng" vẫn là tài liệu đơn lẻ đầy đủ nhất cho các trình biên dịch. Nó có một đoạn tệ, thường là do nhấn mạnh quá mức vào một số chủ đề không hợp để đề cập chi tiết ngày nay, chẳng hạn như parsing (phân tích). Vấn đề là, cuốn sách không bao giờ có ý định nghiên cứu từ trang đầu đến trang cuối, mà nó chỉ nhằm cung cấp nguồn tài liệu đầy đủ cho một giảng viên tổng hợp chúng thành một khóa học. Tương tự, một người tự học có thể chọn cuộc lối đi của riêng họ thông qua cuốn sách, hoặc tốt hơn là làm theo những gợi ý mà các giảng viên đã đưa ra trong các tóm tắt khóa học của họ.
+"Sách Rồng" vẫn là tài liệu đơn lẻ đầy đủ nhất cho các trình biên dịch. Nó có một đoạn tệ, thường là do nhấn mạnh quá mức vào một số chủ đề không còn phù hợp để đề cập chi tiết ngày nay, chẳng hạn như parsing (phân tích). Vấn đề là, cuốn sách không bao giờ có ý định nghiên cứu từ trang đầu đến trang cuối, mà nó chỉ nhằm cung cấp nguồn tài liệu đầy đủ cho một giảng viên tổng hợp chúng thành một khóa học. Tương tự, một người tự học có thể chọn cuộc lối đi của riêng họ thông qua cuốn sách, hoặc tốt hơn là làm theo những gợi ý mà các giảng viên đã đưa ra trong các tóm tắt khóa học của họ.
 
 #### Làm cách nào để mua sách giáo trình với giá rẻ?
 
@@ -258,6 +258,4 @@ Chúng tôi rất tự tin rằng bạn có thể tự học mọi thứ ở tr�
 
 Để nhận các cập nhật mới về hướng dẫn này, tin tức và tài liệu về ngành khoa học máy tính, bạn có thể đăng ký email của bạn với Bradfield: [truy cập vào cuối trang https://teachyourselfcs.com/ để đăng ký].
 
-[hello@bradfieldcs.com](mailto:hello@bradfieldcs.com)
-Sanfrancisco, California
-© 2016-2020 Trường Khoa học Máy tính Bradfield
+[hello@bradfieldcs.com](mailto:hello@bradfieldcs.com. Sanfrancisco, California. © 2016-2020 Trường Khoa học Máy tính Bradfield
